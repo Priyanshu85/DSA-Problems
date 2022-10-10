@@ -1,9 +1,9 @@
 ![image](https://user-images.githubusercontent.com/83485475/194397009-b07aa9d3-3f02-4044-84b4-0763f020e2fd.png)
 
 
-# DSA Solutions
+# Codes and Codes
 
-DSA Questions solutions with best appoaches.
+Contribute as much as you can in coding and Alogs.
 
 ## Process for a Good Contribution
 
