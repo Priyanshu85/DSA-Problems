@@ -1,0 +1,22 @@
+class Solution {
+    public List<String> topKFrequent(String[] words, int k) {
+        Arrays.sort(words,String.CASE_INSENSITIVE_ORDER);
+        TreeMap<String, Integer> map=new TreeMap<>();
+        for(String w: words) {
+            map.put(w,map.getOrDefault(w,0)+1);
+        }
+        //Priority Queue Impementation
+        PriorityQueue<Map.Entry<String, Integer>> pq = new PriorityQueue<>((a, b) ->{
+            if(a.getValue() == b.getValue())
+                return a.getKey().compareTo(b.getKey());
+            return b.getValue() - a.getValue();
+        });
+        //Solving the problem
+        List<String> ans=new ArrayList<>();
+        for(Map.Entry<String,Integer> e : map.entrySet())
+            pq.add(e);
+        while(k-->0)
+            ans.add(pq.remove().getKey());
+        return ans;
+    }
+}
