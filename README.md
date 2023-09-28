@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/83485475/194397009-b07aa9d3-3f02-4044-84b4-0763f020e2fd.png)
+![hf10_banner_sponsors_1032x600](https://github.com/Priyanshu85/DSA-Problems/assets/83485475/dd9677f8-6133-4747-894e-14fcd1802e6b)
 
 
 # Codes and Codes
